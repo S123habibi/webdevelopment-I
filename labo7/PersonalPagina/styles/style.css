@@ -1,0 +1,130 @@
+
+/* Algemene opmaak */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    color: black;
+    margin: 10px;
+}
+
+/* Hoofdtitel */
+header {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+/* Navigatie */
+nav {
+    background-color: darkslategray;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 15px;
+}
+
+nav a {
+    color: white;
+}
+
+/* Hoofdinhoud */
+main {
+    width: 90%;
+    margin: auto;
+}
+
+/* Blokken */
+section {
+    background-color: white;
+    border: 2px solid darkgreen;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Titels */
+h2 {
+    color: darkgreen;
+    border-bottom: 2px solid darkgreen;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: darkslategray;
+}
+
+/* Paragrafen */
+p {
+    font-size: 15px;
+}
+
+/* Profielfoto */
+.profile-photo {
+    width: 180px;
+    border: 3px solid darkgreen;
+}
+
+/* Andere afbeeldingen */
+.interest-photo {
+    width: 150px;
+    border: 2px solid gray;
+}
+
+/* Lijsten */
+li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+/* Vriendentabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+tr.alt td {
+
+    background-color: lightblue;
+    text-align: center;
+    border-color: blue;
+    border-style: solid;
+    color: green;
+}
+.onbekend {
+    background-color: red;
+}
+tr.alt td.onbekend {
+    background-color: red;
+}

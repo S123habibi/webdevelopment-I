@@ -1,0 +1,54 @@
+
+/* Algemene opmaak */
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+h1 {
+    background-color: rgb(170, 170, 200);
+    text-align: center;
+    padding: 15px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Dag hoofding */
+th {
+    background-color: rgb(35, 37, 70);
+    color: rgb(200, 190, 240);
+    padding: 15px;
+}
+
+/* Kalendercellen */
+td {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Vorige en volgende maand */
+.vorige,
+.volgende {
+    color: gray;
+}
+
+/* Feestdagen */
+.feestdag {
+    background-color: rgb(250, 120, 120);
+}
+
+/* Weekends zonder weekend-class */
+td:first-child,
+td:last-child {
+    background-color: rgb(255, 220, 220);
+}
+
+/* Feestdagen moeten voorrang krijgen op weekendkleur */
+td.feestdag {
+    background-color: rgb(250, 120, 120);
+}
